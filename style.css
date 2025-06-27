@@ -329,17 +329,35 @@ img {
   form textarea {
     font-size: 0.9rem;
   }
-  .aksesibilitas {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
-    padding: 12px;
-  }
+ .aksesibilitas {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 0.95rem;
+  color: #7a5c2e;
+  background-color: #fffdf8;
+  border-bottom: 1px solid #dec193;
+  border-radius: 10px;
+}
 
-  .aksesibilitas button {
-    width: 100%;
-    font-size: 1rem;
-  }
+.aksesibilitas button {
+  background-color: #dec193;
+  border: none;
+  color: #3a2c1d;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 4px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.aksesibilitas button:hover {
+  background-color: #c4a464;
+}
    #scrollTopBtn {
     bottom: 20px;
     right: 15px;
