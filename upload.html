@@ -24,10 +24,15 @@
     </nav>
   </header>
 	<div class="aksesibilitas">
-	  <span>Ukuran Teks:</span>
-	  <button onclick="ubahUkuranTeks('besar')">A+</button>
-	  <button onclick="ubahUkuranTeks('normal')">A</button>
-	  <button onclick="ubahUkuranTeks('kecil')">A−</button>
+	  <div class="kontak-kiri">
+		<a href="upload.html#hubungi" class="link-kontak">Hubungi Kami</a>
+	  </div>
+	  <div class="teks-kanan">
+		<span>Ukuran Teks:</span>
+		<button onclick="ubahUkuranTeks('besar')">A+</button>
+		<button onclick="ubahUkuranTeks('normal')">A</button>
+		<button onclick="ubahUkuranTeks('kecil')">A−</button>
+	  </div>
 	</div>
 <main>
   <form id="formUpload" enctype="multipart/form-data">
@@ -45,7 +50,7 @@
 
     <button type="submit">Upload</button>
   </form>
-  <section class="kontak-kami">
+  <section id="hubungi" class="kontak-kami">
   <h2>Hubungi Kami</h2>
   <p>Silakan hubungi kami jika ada pertanyaan, saran, atau kerjasama lebih lanjut:</p>
   <ul>
@@ -54,7 +59,6 @@
     <li>Instagram: <a href="https://instagram.com/skinsantara" target="_blank">@skinsantara</a></li>
   </ul>
 </section>
-
 </main>
 <footer>
   <p>&copy; 2025 Dhaifina Nabila - 221011450513</p>
