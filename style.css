@@ -207,6 +207,41 @@ form button:hover {
   background-color: #a7855c;
 }
 
+.kontak-kami {
+  background-color: #fffdf5;
+  border: 1px solid #e4d1a0;
+  padding: 20px;
+  border-radius: 15px;
+  margin-top: 30px;
+  color: #3e3e3e;
+}
+
+.kontak-kami h2 {
+  color: #7a5c2e;
+  font-family: 'Georgia', serif;
+  margin-bottom: 10px;
+}
+
+.kontak-kami ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.kontak-kami ul li {
+  margin: 8px 0;
+  font-size: 1em;
+}
+
+.kontak-kami a {
+  color: #8a672c;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.kontak-kami a:hover {
+  text-decoration: underline;
+}
+
 .galeri,
 .video-galeri {
   display: grid;
