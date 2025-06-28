@@ -64,8 +64,9 @@ nav ul li a:hover {
 
 .aksesibilitas {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   gap: 10px;
   margin-bottom: 15px;
   padding: 10px;
@@ -90,6 +91,15 @@ nav ul li a:hover {
 
 .aksesibilitas button:hover {
   background-color: #c4a464;
+}
+
+.link-kontak {
+  color: #7a5c2e;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.link-kontak:hover {
+  color: #a06f2c;
 }
 
 main {
@@ -393,6 +403,11 @@ img {
 .aksesibilitas button:hover {
   background-color: #c4a464;
 }
+  
+  .teks-kanan {
+    justify-content: flex-start;
+  }
+  
    #scrollTopBtn {
     bottom: 20px;
     right: 15px;
